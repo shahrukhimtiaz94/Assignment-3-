@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.container {
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.alphabet-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 2px -2px gray;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;
+}
+.alphabet-nav a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #aaa;
+}
+.alphabet-nav a:hover {
+    color: red;
+}
+.alphabet-section {
+    box-shadow: 3px 3px 6px 0px #00000052;
+    width: 25%;
+    padding: 21px 11px;
+    margin: 21px 0px;
+}
+.alphabet-section:hover {
+    box-shadow: 9px 11px 11px #5e5e5e99;
+}
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.go-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px #333;
+    opacity: 0.7;
+    
+}
+.go-top:hover {
+    background-color: #000000;
+    opacity: 1;
+}
+.alphabet-section img {
+    width: 300px;
+}
+
+h2 {
+    
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-shadow: 3px 3px 4px #00000094;
+    
+}
+h4 {
+    font-size: 22px;
+    margin-left: 8px;
+}
