@@ -19,6 +19,7 @@
     padding: 1px 1px 31px;
     text-align: center;
     z-index: 1000;
+    margin-top: 31px;
 }
 .alphabet-nav a {
     border-radius: 32px;
