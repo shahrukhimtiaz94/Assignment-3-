@@ -21,11 +21,15 @@
     z-index: 1000;
 }
 .alphabet-nav a {
+    border-radius: 32px;
     margin: 0 5px;
     text-decoration: none;
     color: #333;
     font-weight: bold;
     text-shadow: 1px 1px 2px #aaa;
+    padding: 8px 12px;
+    background: blue;
+    color: white;
 }
 .alphabet-nav a:hover {
     color: red;
